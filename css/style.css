@@ -1,0 +1,45 @@
+/* Carousel */
+#carousel img{
+   width:100%;
+   height:600px;
+}
+
+/* About */
+#about{
+   background-color: red;
+   padding-top: 70px;
+   padding-bottom: 70px;
+   height:500px;
+}
+
+/* Academics */
+#academics{
+   background-color: blue;
+   padding-top: 70px;
+   padding-bottom: 70px;
+   height:500px;
+}
+
+/* Pricing */
+#pricing{
+   background-color: green;
+   padding-top: 70px;
+   padding-bottom: 70px;
+   height:500px;
+}
+
+/* Photos */
+#photos{
+   background-color: yellow;
+   padding-top: 70px;
+   padding-bottom: 70px;
+   height:500px;
+}
+
+/* Contact */
+#contact{
+   background-color: orange;
+   padding-top: 70px;
+   padding-bottom: 70px;
+   height:500px;
+}
