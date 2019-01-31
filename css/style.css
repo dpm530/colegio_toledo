@@ -1,24 +1,85 @@
+/* Navbar1 */
+#navbar1{
+   background-color: #10316b;
+}
+#navbar1_left a{
+   color:white;
+   font-size: 25px;
+   padding-top: 35px;
+}
+#navbar1_center img{
+   height: 100px;
+   width: 130px;
+}
+#navbar1_right a{
+   color:white;
+   font-size: 35px;
+   padding-top: 30px;
+}
+
 /* Carousel */
 #carousel img{
    width:100%;
-   height:600px;
+   height:440px;
+}
+#carousel .carousel-caption{
+   background-color:#fdbe34;
+}
+#carousel .carousel-item h3{
+   color:red;
+}
+#carousel .carousel-item p{
+   color:white;
+}
+#carousel .carousel-item a{
+   background-color: #0b409c;
+   color:white;
+}
+
+/* Navbar2 */
+#navbar2 a{
+   color:#10316b;
+}
+#navbar2_info{
+   height:250px;
+}
+#info_1{
+   background-color:#0b409c;
+}
+#info_2{
+   background-color:#10316b;
 }
 
 /* About */
 #about{
-   background-color: red;
    padding-top: 70px;
    padding-bottom: 70px;
-   height:500px;
+}
+#about h1{
+   color:#10316b;
+   font-size: 55px;
+}
+#about p{
+   color:#808080;
+   font-size: 28px;
+}
+#about a{
+   background-color: #ffc107;
+   color:#10316b;
 }
 
 /* Academics */
 #academics{
-   background-color: blue;
+   background-image: url("../images/academics1.jpg");
    padding-top: 70px;
    padding-bottom: 70px;
-   height:500px;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
+#academics img{
+   width:100%;
+}
+
 
 /* Pricing */
 #pricing{
@@ -28,8 +89,8 @@
    height:500px;
 }
 
-/* Photos */
-#photos{
+/* Gallery */
+#gallery{
    background-color: yellow;
    padding-top: 70px;
    padding-bottom: 70px;
