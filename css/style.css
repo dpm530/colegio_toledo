@@ -176,3 +176,24 @@ footer p{
 #copyright_section{
    border-top: 0.5px solid white;
 }
+
+
+
+/* Mobile Footer */
+@media screen and (max-width: 376px){
+   #copyright_section p{
+      font-size: 6px;
+   }
+   #socialmedia_footer{
+      display:none;
+   }
+   #mobile_footer{
+      display:none;
+   }
+   footer p{
+      font-size: 12px;
+   }
+   footer img{
+      width:100%;
+   }
+}
