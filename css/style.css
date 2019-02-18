@@ -6,7 +6,9 @@ html,body{
    overflow-x: hidden;
 }
 
-/* Navbar1 */
+/*-----------------------------
+    Navbar1
+------------------------------*/
 #navbar1{
    background-color: #10316b;
 }
@@ -29,7 +31,18 @@ html,body{
    padding-top: 30px;
 }
 
-/* Carousel */
+/*-----------------------------
+    Mobile Navbar1
+------------------------------*/
+@media screen and (max-width:415px){
+   #navbar1_right{
+      display:none;
+   }
+}
+
+/*-----------------------------
+    Carousel
+------------------------------*/
 #carousel img{
    width:100%;
    height:440px;
@@ -48,7 +61,9 @@ html,body{
    color:white;
 }
 
-/* Navbar2 */
+/*-----------------------------
+    Navbar2
+------------------------------*/
 #navbar2 a{
    color:#10316b;
 }
@@ -85,7 +100,21 @@ html,body{
    color: black;
 }
 
-/* About */
+/*-----------------------------
+    Mobile Navbar2
+------------------------------*/
+@media screen and (max-width:415px){
+   #info_1 .container{
+      text-align: center;
+   }
+   #info_2 .container{
+      text-align: center;
+   }
+}
+
+/*-----------------------------
+    About
+------------------------------*/
 #about{
    padding-top: 70px;
    padding-bottom: 70px;
@@ -102,8 +131,13 @@ html,body{
    background-color: #ffc107;
    color:#10316b;
 }
+#about img{
+   width:100%;
+}
 
-/* Academics */
+/*-----------------------------
+    Academics
+------------------------------*/
 #academics{
    background-image: url("../images/academics1.jpg");
    padding-top: 70px;
@@ -113,13 +147,19 @@ html,body{
 }
 #academics img{
    width:100%;
+   margin-bottom: 10px;
 }
 #academics a{
    background-color:#0b409c;
    color: white;
 }
+#school_section{
+   text-align: center;
+}
 
-/* Gallery */
+/*-----------------------------
+    Gallery
+------------------------------*/
 #gallery{
    background-image: url("../images/gallery1.jpeg");
    padding-top: 70px;
@@ -130,13 +170,18 @@ html,body{
 #gallery img{
    width: 100%;
 }
+#gallery .row{
+   margin-bottom: 10px;
+}
 
-/* Contact */
+/*-----------------------------
+    Contact
+------------------------------*/
 #contact{
    padding-top: 70px;
    padding-bottom: 70px;
 }
-#contact .col-6{
+#contact .col-md-6{
    background-color:#fdbe34;
    border-radius: 12px;
    padding-top: 10px;
@@ -147,7 +192,18 @@ html,body{
    color: white;
 }
 
-/* Footer */
+/*-----------------------------
+    Mobile Contact Section
+------------------------------*/
+@media screen and (max-width:415px){
+   #contact .col-12{
+      border-radius: 0px;
+   }
+}
+
+/*-----------------------------
+    Footer
+------------------------------*/
 footer{
    background-color: #10316b;
    padding-top: 30px;
@@ -177,9 +233,9 @@ footer p{
    border-top: 0.5px solid white;
 }
 
-
-
-/* Mobile Footer */
+/*-----------------------------
+    Mobile Footer
+------------------------------*/
 @media screen and (max-width: 376px){
    #copyright_section p{
       font-size: 6px;
