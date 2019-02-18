@@ -1,10 +1,9 @@
 html,body{
    width:100%;
    height:100%;
-   padding:none;
-   margin:none;
-   overflow-x: hidden;
+   /* overflow-x: hidden; */
 }
+
 
 /*-----------------------------
     Navbar1
@@ -18,8 +17,9 @@ html,body{
 }
 #navbar1_left a{
    color:white;
-   font-size: 25px;
+   font-size: 32px;
    padding-top: 35px;
+   font-family: 'Roboto', sans-serif;
 }
 #navbar1_center img{
    height: 100px;
@@ -45,26 +45,43 @@ html,body{
 ------------------------------*/
 #carousel img{
    width:100%;
-   height:440px;
+   /* max-height:450px; */
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+#carousel .carousel-item{
+   max-height: 470px;
 }
 #carousel .carousel-caption{
    background-color:#fdbe34;
+   border-radius: 40px;
 }
 #carousel .carousel-item h3{
+   font-family: 'Roboto', sans-serif;
    color:red;
+   font-size: 45px;
 }
 #carousel .carousel-item p{
+   font-family: 'Roboto', sans-serif;
    color:white;
+   font-size: 22px;
+   text-align: center;
 }
 #carousel .carousel-item a{
+   font-family: 'Roboto', sans-serif;
    background-color: #0b409c;
    color:white;
+   font-size: 18px;
 }
 
 /*-----------------------------
     Navbar2
 ------------------------------*/
-#navbar2 a{
+#navbar2_center a{
+   font-family: 'Roboto', sans-serif;
+   font-size: 22px;
+   font-weight: 700;
    color:#10316b;
 }
 #navbar2_info{
@@ -75,27 +92,49 @@ html,body{
 }
 #info_1 .container{
    text-align: right;
+   position: absolute;
+   top: 15%;
+   padding-right: 40px;
 }
 #info_1 h1{
+   font-family: 'Roboto', sans-serif;
    color:#fdbe34;
+   font-size: 40px;
+   font-weight: 700;
 }
 #info_1 p{
+   font-family: 'Roboto', sans-serif;
    color: white;
+   font-size: 20px;
 }
 #info_1 a{
+   font-family: 'Roboto', sans-serif;
    background-color:#fdbe34;
    color: black;
+   font-size: 18px;
 }
 #info_2{
    background-color:#10316b;
 }
+#info_2 .container{
+   position: absolute;
+   top: 15%;
+   padding-right: 40px;
+}
 #info_2 h1{
+   font-family: 'Roboto', sans-serif;
+   font-size: 40px;
+   font-weight: 700;
    color: #fdbe34;
 }
 #info_2 p{
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
    color: white;
 }
 #info_2 a{
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
    background-color:#fdbe34;
    color: black;
 }
@@ -120,16 +159,22 @@ html,body{
    padding-bottom: 70px;
 }
 #about h1{
+   font-family: 'Roboto', sans-serif;
    color:#10316b;
-   font-size: 55px;
+   font-size: 50px;
+   font-weight: 700;
 }
 #about p{
+   font-family: 'Roboto', sans-serif;
    color:#808080;
-   font-size: 28px;
+   font-size: 30px;
+   text-align: justify;
 }
 #about a{
+   font-family: 'Roboto', sans-serif;
    background-color: #ffc107;
    color:#10316b;
+   font-size: 22px;
 }
 #about img{
    width:100%;
@@ -147,15 +192,39 @@ html,body{
 }
 #academics img{
    width:100%;
-   margin-bottom: 10px;
+   filter: brightness(65%);
+}
+#academics .card{
+   background-color:rgba(0,0,0,0);
+}
+.card-img-overlay{
+   top: 40px;
+}
+#academics h1{
+   font-family: 'Roboto', sans-serif;
+   font-size: 50px;
+   font-weight: 700;
+}
+#academics h2{
+   font-family: 'Roboto', sans-serif;
+   color: white;
+   font-size: 45px;
+}
+#academics p{
+   font-family: 'Roboto', sans-serif;
+   color: white;
+   font-size: 18px;
 }
 #academics a{
+   font-family: 'Roboto', sans-serif;
    background-color:#0b409c;
    color: white;
+   font-size: 15px;
 }
 #school_section{
    text-align: center;
 }
+
 
 /*-----------------------------
     Gallery
@@ -167,11 +236,31 @@ html,body{
    background-size: cover;
    background-repeat: no-repeat;
 }
-#gallery img{
+#gallery h1{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 50px;
+   color: white;
+   margin-bottom: 15px;
+}
+#gallery a img{
    width: 100%;
+   max-height: 220px;
 }
 #gallery .row{
    margin-bottom: 10px;
+}
+#gallery .modal-dialog{
+   width: 1000px;
+   height: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: none;
+}
+#gallery .close{
+   text-align: right;
+   margin-right: 10px;
+   font-size: 30px;
 }
 
 /*-----------------------------
@@ -180,24 +269,74 @@ html,body{
 #contact{
    padding-top: 70px;
    padding-bottom: 70px;
-}
-#contact .col-md-6{
    background-color:#fdbe34;
-   border-radius: 12px;
-   padding-top: 10px;
-   padding-bottom: 10px;
+}
+#contact h1{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 50px;
+   margin-bottom: 45px;
+   color: white;
+}
+#find_us_section h2{
+   font-family: 'Roboto', sans-serif;
+   font-size: 40px;
+   margin-bottom: 25px;
+   color: white;
+}
+#contact .container{
+   margin-left: 25%;
+}
+#contact .row{
+   background-color:#10316b;
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+#find_us_section i{
+   font-size: 30px;
+}
+#find_us_section p,a{
+   font-family: 'Roboto', sans-serif;
+   font-size: 22px;
+   text-align: justify;
+   color: white;
+}
+#find_us_section .address{
+   display: inline-flex;
+}
+#find_us_section .address_container{
+   text-align: left;
+}
+.address_container .address i{
+   margin-right: 5px;
+}
+#hours_section h2{
+   font-family: 'Roboto', sans-serif;
+   font-size: 40px;
+   margin-bottom: 25px;
+   color: white;
+}
+#hours_section p{
+   font-family: 'Roboto', sans-serif;
+   font-size: 22px;
+   text-align: justify;
+   color: white;
+
 }
 #contact_button{
+   font-family: 'Roboto', sans-serif;
    background-color:#10316b;
    color: white;
+   font-size: 18px;
+   margin-top: 15px;
 }
 
 /*-----------------------------
     Mobile Contact Section
 ------------------------------*/
 @media screen and (max-width:415px){
-   #contact .col-12{
-      border-radius: 0px;
+   #contact .container{
+      margin-left: 0%;
    }
 }
 
@@ -212,25 +351,32 @@ footer img{
    width:150px;
    height:100px;
 }
-footer a{
-   color:white;
-}
 #socialmedia_footer a{
-   font-size: 30px;
+   font-size: 38px;
    letter-spacing: 10px;
+   color:white;
 }
 footer h3{
+   font-family: 'Roboto', sans-serif;
    color:white;
+   font-size: 22px;
 }
 footer form .btn{
+   font-family: 'Roboto', sans-serif;
    background-color:#fdbe34;
    color:black;
+   font-size: 18px;
 }
-footer p{
+footer p a{
+   font-family: 'Roboto', sans-serif;
    color:white;
+   font-size: 18px;
 }
 #copyright_section{
    border-top: 0.5px solid white;
+   color:white;
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
 }
 
 /*-----------------------------

@@ -5,7 +5,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
@@ -19,7 +20,7 @@
             <div id="navbar1_left" class="col-12 col-md-4">
                <ul class="nav">
                   <li class="nav-item">
-                     <a class="nav-link" href="#">COLEGIO BILINGÜE TOLEDO</a>
+                     <a class="nav-link" href="#">Colegio Bilingüe Toledo</a>
                   </li>
                </ul>
             </div>
@@ -35,16 +36,16 @@
             <div id="navbar1_right" class="col-md-4">
                <ul class="nav justify-content-end">
                   <li class="nav-item">
-                     <a class="nav-link" href="#"><i class="fa fa-facebook-official"></i></a>
+                     <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+                     <a class="nav-link" href="#"><i class="fab fa-twitter-square"></i></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+                     <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a>
+                     <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
                   </li>
                </ul>
             </div>
@@ -141,7 +142,7 @@
             <div class="col-md-2"></div>
             <div class="col-12 col-md-8 text-center">
                <h1>About Us</h1>
-               <p>Lorem Khaled Ipsum is a major key to success. They don’t want us to eat. How’s business? Boomin. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. The key to more success is to have a lot of pillows. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. Learning is cool, but knowing is better, and I know the key to success. Special cloth alert. Congratulations, you played yourself. Let’s see what Chef Dee got that they don’t want us to eat. Bless up. You smart, you loyal, you a genius. Learning is cool, but knowing is better, and I know the key to success. They will try to close the door on you, just open it. The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Lion! You smart, you loyal, you a genius. Celebrate success right, the only way, apple. You see that bamboo behind me though, you see that bamboo? Ain’t nothin’ like bamboo. Bless up. They key is to have every key, the key to open every door.</p>
+               <p>Educating the mind and the heart. Maternal, Kinder, Primaria y Secundaria. Educación 100% bilingüe.</p>
                <a href="#" class="btn">Learn More</a>
             </div>
             <div class="col-md-2"></div>
@@ -156,29 +157,26 @@
          </div>
       </div>
 
-      <div id="academics" class="contaienr-fluid">
+      <div id="academics" class="contaienr-fluid text-center">
+         <h1>Academics</h1>
          <div class="row">
             <div class="col-md-1"></div>
             <div class="col-12 col-md-5">
-               <div class="row">
-                  <div id="school_section" class="col-12 col-md-4">
-                     <h1>Primaria</h1>
-                     <p>Info about Elementary</p>
+               <div class="card">
+                  <img src="images/academics1.jpeg" alt="">
+                  <div class="card-img-overlay">
+                     <h2 class="card-totle">Primaria</h2>
+                     <p class="card-text">Info about Elementary</p>
                      <a href="#" class="btn">Elememtary</a>
-                  </div>
-                  <div class="col-12 col-md-8">
-                     <img src="images/academics1.jpeg" alt="">
                   </div>
                </div>
             </div>
             <div class="col-12 col-md-5">
-               <div class="row">
-                  <div class="col-12 col-md-8">
-                     <img src="images/academics2.jpeg" alt="">
-                  </div>
-                  <div id="school_section" class="col-12 col-md-4">
-                     <h1>Secundaria</h1>
-                     <p>Info about Highschool</p>
+               <div class="card">
+                  <img src="images/academics2.jpeg" alt="">
+                  <div class="card-img-overlay">
+                     <h2 class="card-totle">Secundaria</h2>
+                     <p class="card-text">Info about Highschool</p>
                      <a href="#" class="btn">Highschool</a>
                   </div>
                </div>
@@ -189,70 +187,162 @@
 
       <br><br>
 
-      <div id="gallery" class="container-fluid">
+      <div id="gallery" class="container-fluid text-center">
+         <h1>Gallery</h1>
          <div class="row">
             <div class="col-4 col-md-4">
-               <img src="https://placehold.it/150x80?text=IMAGE" alt="">
+               <a href="" data-target="#image_modal1" data-toggle="modal"><img src="images/gallery1.jpg" alt=""></a>
+               <div class="modal" id="image_modal1">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="images/gallery1.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
             </div>
             <div class="col-4 col-md-4">
-               <img src="https://placehold.it/150x80?text=IMAGE" alt="">
+               <a href="" data-target="#image_modal2" data-toggle="modal"><img src="images/gallery2.jpg" alt=""></a>
+               <div class="modal" id="image_modal2">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="images/gallery2.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
             </div>
             <div class="col-4 col-md-4">
-               <img src="https://placehold.it/150x80?text=IMAGE" alt="">
+               <a href="" data-target="#image_modal3" data-toggle="modal"><img src="images/gallery3.jpg" alt=""></a>
+               <div class="modal" id="image_modal3">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="images/gallery3.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="row">
             <div class="col-4 col-md-4">
-               <img src="https://placehold.it/150x80?text=IMAGE" alt="">
+               <a href="" data-target="#image_modal4" data-toggle="modal"><img src="images/gallery4.jpg" alt=""></a>
+               <div class="modal" id="image_modal4">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="images/gallery4.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
             </div>
             <div class="col-4 col-md-4">
-               <img src="https://placehold.it/150x80?text=IMAGE" alt="">
+               <a href="" data-target="#image_modal5" data-toggle="modal"><img src="images/gallery5.jpg" alt=""></a>
+               <div class="modal" id="image_modal5">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="images/gallery5.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
             </div>
             <div class="col-4 col-md-4">
-               <img src="https://placehold.it/150x80?text=IMAGE" alt="">
+               <a href="" data-target="#image_modal6" data-toggle="modal"><img src="images/gallery6.jpg" alt=""></a>
+               <div class="modal" id="image_modal6">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="images/gallery6.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="row">
             <div class="col-4 col-md-4">
-               <img src="https://placehold.it/150x80?text=IMAGE" alt="">
+               <a href="" data-target="#image_modal7" data-toggle="modal"><img src="images/gallery7.jpg" alt=""></a>
+               <div class="modal" id="image_modal7">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="images/gallery7.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
             </div>
             <div class="col-4 col-md-4">
-               <img src="https://placehold.it/150x80?text=IMAGE" alt="">
+               <a href="" data-target="#image_modal8" data-toggle="modal"><img class="img_icon" src="images/gallery8.jpg" alt=""></a>
+               <div class="modal" id="image_modal8">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="images/gallery8.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
             </div>
             <div class="col-4 col-md-4">
-               <img src="https://placehold.it/150x80?text=IMAGE" alt="">
+               <a href="" data-target="#image_modal9" data-toggle="modal"><img src="images/gallery9.jpg" alt=""></a>
+               <div class="modal" id="image_modal9">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="images/gallery9.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
 
       <br><br>
 
-      <div id="contact" class="container-fluid">
+      <div id="contact" class="container-fluid text-center">
+         <h1>Contact Us</h1>
          <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-6 text-center">
-               <h1>Find Us</h1>
-               <div class="row text-center">
-                  <div class="col-md-12">
-                     <a href="#" class="btn">Avenida Benito Juárez Torreon, Mexico</a>
+            <div class="col-md-1"></div>
+            <div id="find_us_section" class="col-12 col-md-5">
+               <div class="row">
+                  <div class="col-12 col-md-12">
+                     <h2><u>Find Us</u></h2>
+                     <div class="container">
+                        <a href="#">
+                           <div class="address_container">
+                              <p class="address">
+                                 <i class="fas fa-map-marked-alt"></i>
+                                 <p class="address">Avenida Benito Juárez<br>Torreon, Mexico</p>
+                              </p>
+                           </div>
+                        </a>
+                        <p><a href=""><i class="fas fa-envelope"></i> colegiobilinguetoledo@hotmail.com</a></p>
+                        <p><a href=""><i class="fas fa-phone"></i> (+52) 792-82-39</a></p>
+                     </div>
                   </div>
                </div>
-               <div class="row text-center">
-                  <div class="col-md-12">
-                     <a href="#" class="btn">colegiobilinguetoledo@hotmail.com</a>
-                  </div>
-               </div>
-               <div class="row text-center">
-                  <div class="col-md-12">
-                     <a href="#" class="btn">Call 792-82-39</a>
-                  </div>
-               </div>
-               <br>
-               <a  id="contact_button" href="#" class="btn">More Info</a>
             </div>
-            <div class="col-md-3"></div>
+            <div id="hours_section" class="col-12 col-md-5">
+               <div class="row">
+                  <div class="col-12 col-md-12">
+                     <h2><u>Hours</u></h2>
+                     <div class="container">
+                        <p>Monday: 7:45 - 2:45 PM</p>
+                        <p>Tuesday: 7:45 - 2:45 PM</p>
+                        <p>Wednesday: 7:45 - 2:45 PM</p>
+                        <p>Thursday: 7:45 - 2:45 PM</p>
+                        <p>Friday: 7:45 - 2:45 PM</p>
+                        <p>Saturday: CLOSED</p>
+                        <p>Sunday: CLOSED</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-1"></div>
          </div>
+         <a  id="contact_button" href="#" class="btn">More Info</a>
       </div>
+      <br>
+      <br>
 
       <footer class="container-fluid">
          <div class="container">
@@ -266,10 +356,10 @@
                   <br>
                   <div id="socialmedia_footer" class="row">
                      <div class="col-md-12">
-                        <a href="#"><i class="fa fa-facebook-official"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
                      </div>
                   </div>
                </div>
