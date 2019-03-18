@@ -39,6 +39,17 @@ html,body{
    #navbar1_right{
       display:none;
    }
+   #navbar1_center img{
+      height: 50px;
+      width: 60px;
+   }
+   #navbar1_left a{
+      font-size: 23px;
+      padding-top: 0px;
+   }
+   #navbar1_top{
+      padding-top: 5px;
+   }
 }
 
 /*-----------------------------
@@ -76,6 +87,15 @@ html,body{
    font-size: 18px;
 }
 
+@media screen and (max-width:415px){
+   #carousel .carousel-item h3{
+      font-size: 20px;
+   }
+   #carousel .carousel-item p{
+      font-size: 12px;
+   }
+}
+
 /*-----------------------------
     Navbar2
 ------------------------------*/
@@ -85,15 +105,14 @@ html,body{
    font-weight: 700;
    color:#10316b;
 }
-#navbar2_info{
-   height:250px;
-}
 #info_1{
    background-color:#0b409c;
+   padding-top: 15px;
+   padding-bottom: 15px;
 }
 #info_1 .container{
    text-align: right;
-   position: absolute;
+   /* position: absolute; */
    top: 15%;
    padding-right: 40px;
 }
@@ -116,9 +135,11 @@ html,body{
 }
 #info_2{
    background-color:#10316b;
+   padding-top: 15px;
+   padding-bottom: 15px;
 }
 #info_2 .container{
-   position: absolute;
+   /* position: absolute; */
    top: 15%;
    padding-right: 40px;
 }
@@ -146,9 +167,24 @@ html,body{
 @media screen and (max-width:415px){
    #info_1 .container{
       text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
    }
    #info_2 .container{
       text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
+   #navbar2_center a{
+      font-size: 12px;
+   }
+   #navbar2{
+      padding-left: 0px;
+      padding-right: 0px;
+   }
+   #navbar2_info{
+      margin-right: -15px;
+      margin-left: -15px;
    }
 }
 
@@ -179,6 +215,16 @@ html,body{
 }
 #about img{
    width:100%;
+}
+
+@media screen and (max-width:415px){
+   #about h1{
+      font-size: 45px;
+   }
+   #about p{
+      font-size: 18px;
+      text-align: unset;
+   }
 }
 
 /*-----------------------------
@@ -263,6 +309,16 @@ html,body{
    margin-right: 10px;
    font-size: 30px;
 }
+#gallery #list_items{
+   color: white;
+   font-size: 22px;
+}
+
+@media screen and (max-width:415px){
+   #gallery .col-md-5{
+      display:none;
+   }
+}
 
 /*-----------------------------
     Contact
@@ -284,9 +340,6 @@ html,body{
    font-size: 40px;
    margin-bottom: 25px;
    color: white;
-}
-#contact .container{
-   margin-left: 25%;
 }
 #contact .row{
    background-color:#10316b;
@@ -325,6 +378,7 @@ html,body{
    font-size: 22px;
    text-align: justify;
    color: white;
+   margin-left: 20%;
 
 }
 #contact_button{
@@ -335,12 +389,25 @@ html,body{
    margin-top: 15px;
 }
 
-/*-----------------------------
-    Mobile Contact Section
-------------------------------*/
 @media screen and (max-width:415px){
-   #contact .container{
-      margin-left: 0%;
+   #contact{
+      padding-left: 0px;
+      padding-right: 0px;
+   }
+   #contact .row{
+      margin-right: 0px;
+      margin-left: 0px;
+      border-radius: 0px;
+   }
+   #find_us_section i{
+      font-size: 25px;
+   }
+   #find_us_section p,a{
+      font-size: 16px;
+   }
+   #hours_section p {
+      font-size: 17px;
+      margin-left: 10%;
    }
 }
 
@@ -400,6 +467,6 @@ footer p a{
       font-size: 12px;
    }
    footer img{
-      width:100%;
+      display:none;
    }
 }
